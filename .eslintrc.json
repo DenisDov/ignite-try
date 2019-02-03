@@ -25,6 +25,9 @@
     "no-underscore-dangle": 0,
     "camelcase": 0,
     "react/no-did-mount-set-state": 1,
-    "react/destructuring-assignment": 1
+    "react/destructuring-assignment": 1,
+    "react/prop-types": 1,
+    "no-use-before-define": 1,
+    "jsx-a11y/accessible-emoji": 0
   }
 }

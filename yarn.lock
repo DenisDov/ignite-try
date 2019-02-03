@@ -5403,6 +5403,11 @@ ignite-andross@^3.0.4:
   dependencies:
     ramda "^0.23.0"
 
+ignite-camera@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/ignite-camera/-/ignite-camera-0.0.1.tgz#da12b31c3c24b5046c8374d740fb126a8b02da9a"
+  integrity sha512-tE/vFRB8i2a7Xkfb5pCimyUA5wYlbMc8kbeSMXtZ3U0O0RoeL8sG6pMHlx62r0OzFH3meRKI/JfQC9ZGPxtGwA==
+
 ignite-dev-screens@^2.4.3:
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/ignite-dev-screens/-/ignite-dev-screens-2.4.3.tgz#bd005d4cf21f9cb17d08eb749e8b7cc0b23eb920"
@@ -9049,6 +9054,13 @@ react-modal@^3.3.2:
     prop-types "^15.5.10"
     react-lifecycles-compat "^3.0.0"
     warning "^3.0.0"
+
+react-native-camera@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/react-native-camera/-/react-native-camera-1.10.0.tgz#cd477cf37ccc023c5e7ec013d0661d1a39ac6aca"
+  integrity sha512-8j5PvEKlniVwr5mZ+HQjLY8GKZuZoPTeXbwGxFwKdQczXV+x40VoIZJx14eXc+ge9HVFmlgVazmK4vSf+OTkIw==
+  dependencies:
+    prop-types "^15.6.2"
 
 react-native-compat@^1.0.0:
   version "1.0.0"

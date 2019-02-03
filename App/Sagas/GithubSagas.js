@@ -6,6 +6,7 @@ export function* getUserAvatar(api, action) {
   const { username } = action;
   // make the call to the api
   const response = yield call(api.getUser, username);
+  console.log('response: ', response);
 
   if (response.ok) {
     const firstUser = path(['data', 'items'], response)[0];

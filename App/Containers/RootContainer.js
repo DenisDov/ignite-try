@@ -13,6 +13,7 @@ class RootContainer extends Component {
   }
 
   render() {
+    console.log('RootContainer props', this.props);
     return (
       <View style={styles.applicationView}>
         <StatusBar barStyle="light-content" />
@@ -27,4 +28,7 @@ const mapDispatchToProps = dispatch => ({
   startup: () => dispatch(StartupActions.startup()),
 });
 
-export default connect(null, mapDispatchToProps)(RootContainer);
+export default connect(
+  null,
+  mapDispatchToProps,
+)(RootContainer);

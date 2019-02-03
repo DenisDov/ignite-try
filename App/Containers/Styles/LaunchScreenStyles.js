@@ -1,18 +1,25 @@
 import { StyleSheet } from 'react-native';
-import { Metrics, ApplicationStyles } from '../../Themes';
+import { Metrics, ApplicationStyles, Colors } from '../../Themes';
 
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
   container: {
     paddingBottom: Metrics.baseMargin,
+    // backgroundColor: Colors.background,
   },
-  logo: {
-    marginTop: Metrics.doubleSection,
-    height: Metrics.images.logo,
-    width: Metrics.images.logo,
-    resizeMode: 'contain',
+  cameraView: {
+    // alignSelf: 'center',
+    width: Metrics.screenWidth,
+    height: 300,
+    marginBottom: Metrics.doubleSection,
+    overflow: 'hidden',
   },
-  centered: {
+  camera: {
+    flex: 1,
+    justifyContent: 'center',
     alignItems: 'center',
+  },
+  footer: {
+    paddingHorizontal: 20,
   },
 });
